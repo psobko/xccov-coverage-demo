@@ -1,0 +1,16 @@
+Name                                                                                                                                                                               Coverage        
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --------------- 
+xccovTests.xctest                                                                                                                                                                  100.00% (22/22) 
+    /Users/petersobkowski/dev/xccov/xccovTests/xccovTests.swift                                                                                                                    100.00% (22/22) 
+        xccovTests.xccovTests.setUp() -> ()                                                                                                                                        100.00% (12/12) 
+        xccovTests.xccovTests.tearDown() -> ()                                                                                                                                     100.00% (3/3)   
+        xccovTests.xccovTests.testViewContainsFiveLabels() -> ()                                                                                                                   100.00% (7/7)   
+xccov.app                                                                                                                                                                          72.41% (21/29)  
+    /Users/petersobkowski/dev/xccov/xccov/AppDelegate.swift                                                                                                                        100.00% (3/3)   
+        xccov.AppDelegate.application(__ObjC.UIApplication, didFinishLaunchingWithOptions: Swift.Optional<Swift.Dictionary<__C.UIApplicationLaunchOptionsKey, Any>>) -> Swift.Bool 100.00% (3/3)   
+    /Users/petersobkowski/dev/xccov/xccov/ViewController.swift                                                                                                                     69.23% (18/26)  
+        (extension in xccov):__ObjC.UIViewController.preloadView() -> ()                                                                                                           0.00% (0/3)     
+        xccov.ViewController.viewDidLoad() -> ()                                                                                                                                   100.00% (4/4)   
+        xccov.ViewController.layoutLetters() -> ()                                                                                                                                 100.00% (14/14) 
+        xccov.ViewController.neverCalledMethod() -> ()                                                                                                                             0.00% (0/5)     
+

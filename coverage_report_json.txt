@@ -1,0 +1,116 @@
+{
+  "coveredLines": 43,
+  "lineCoverage": 0.84313725490196079,
+  "targets": [
+    {
+      "coveredLines": 22,
+      "lineCoverage": 1,
+      "files": [
+        {
+          "coveredLines": 22,
+          "lineCoverage": 1,
+          "path": "/Users/petersobkowski/dev/xccov/xccovTests/xccovTests.swift",
+          "functions": [
+            {
+              "coveredLines": 12,
+              "lineCoverage": 1,
+              "lineNumber": 16,
+              "executionCount": 1,
+              "name": "xccovTests.xccovTests.setUp() -> ()",
+              "executableLines": 12
+            },
+            {
+              "coveredLines": 3,
+              "lineCoverage": 1,
+              "lineNumber": 29,
+              "executionCount": 1,
+              "name": "xccovTests.xccovTests.tearDown() -> ()",
+              "executableLines": 3
+            },
+            {
+              "coveredLines": 7,
+              "lineCoverage": 1,
+              "lineNumber": 33,
+              "executionCount": 1,
+              "name": "xccovTests.xccovTests.testViewContainsFiveLabels() -> ()",
+              "executableLines": 7
+            }
+          ],
+          "name": "xccovTests.swift",
+          "executableLines": 22
+        }
+      ],
+      "name": "xccovTests.xctest",
+      "executableLines": 22,
+      "buildProductPath": "/Users/petersobkowski/dev/xccov/Build/Build/Products/Debug-iphonesimulator/xccov.app/PlugIns/xccovTests.xctest/xccovTests"
+    },
+    {
+      "coveredLines": 21,
+      "lineCoverage": 0.72413793103448276,
+      "files": [
+        {
+          "coveredLines": 3,
+          "lineCoverage": 1,
+          "path": "/Users/petersobkowski/dev/xccov/xccov/AppDelegate.swift",
+          "functions": [
+            {
+              "coveredLines": 3,
+              "lineCoverage": 1,
+              "lineNumber": 8,
+              "executionCount": 1,
+              "name": "xccov.AppDelegate.application(__ObjC.UIApplication, didFinishLaunchingWithOptions: Swift.Optional<Swift.Dictionary<__C.UIApplicationLaunchOptionsKey, Any>>) -> Swift.Bool",
+              "executableLines": 3
+            }
+          ],
+          "name": "AppDelegate.swift",
+          "executableLines": 3
+        },
+        {
+          "coveredLines": 18,
+          "lineCoverage": 0.69230769230769229,
+          "path": "/Users/petersobkowski/dev/xccov/xccov/ViewController.swift",
+          "functions": [
+            {
+              "coveredLines": 0,
+              "lineCoverage": 0,
+              "lineNumber": 5,
+              "executionCount": 0,
+              "name": "(extension in xccov):__ObjC.UIViewController.preloadView() -> ()",
+              "executableLines": 3
+            },
+            {
+              "coveredLines": 4,
+              "lineCoverage": 1,
+              "lineNumber": 12,
+              "executionCount": 2,
+              "name": "xccov.ViewController.viewDidLoad() -> ()",
+              "executableLines": 4
+            },
+            {
+              "coveredLines": 14,
+              "lineCoverage": 1,
+              "lineNumber": 17,
+              "executionCount": 2,
+              "name": "xccov.ViewController.layoutLetters() -> ()",
+              "executableLines": 14
+            },
+            {
+              "coveredLines": 0,
+              "lineCoverage": 0,
+              "lineNumber": 32,
+              "executionCount": 0,
+              "name": "xccov.ViewController.neverCalledMethod() -> ()",
+              "executableLines": 5
+            }
+          ],
+          "name": "ViewController.swift",
+          "executableLines": 26
+        }
+      ],
+      "name": "xccov.app",
+      "executableLines": 29,
+      "buildProductPath": "/Users/petersobkowski/dev/xccov/Build/Build/Products/Debug-iphonesimulator/xccov.app/xccov"
+    }
+  ],
+  "executableLines": 51
+}
